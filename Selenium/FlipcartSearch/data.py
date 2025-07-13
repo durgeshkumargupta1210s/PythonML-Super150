@@ -10,7 +10,7 @@ driver.maximize_window()
 
 # Open Flipkart
 driver.get("https://www.flipkart.com")
-
+ 
 # Close login popup
 try:
     close_button = driver.find_element(By.XPATH, "//button[contains(text(),'✕')]")
@@ -31,7 +31,7 @@ all_mobiles = []
 all_prices = []
 all_ratings=[]
 
-for page in range(1, 11):
+for page in range(1, 16):
     print(f"\n--- Page {page} ---")
 
     time.sleep(3)
